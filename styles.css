@@ -400,3 +400,9 @@ footer{
   background-position: center;
   background-repeat: no-repeat;
 }
+/* FORCE HERO IMAGE (paste at very bottom) */
+.hero{
+  background:
+    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    url("./images/hero-junk.jpg") center/cover no-repeat !important;
+}
