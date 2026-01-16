@@ -105,15 +105,10 @@ body{
 }
 
 /* Default hero background (you can swap image easily) */
-.hero-junk {
+.hero {
   background:
-    linear-gradient(
-      rgba(0,0,0,0.7),
-      rgba(0,0,0,0.7)
-    ),
-    url("https://images.unsplash.com/photo-1621976360621-8f9f1c71bda6?auto=format&fit=crop&w=2200&q=60");
-  background-size: cover;
-  background-position: center;
+    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    url("images/hero-junk.jpg") center / cover no-repeat;
 }
 
 /* dark overlay to make text pop */
